@@ -31,5 +31,11 @@
   "Role": {
     "dataSource": "db",
     "public": false
-  }
+  },
+  "answer": {
+     "dataSource": "mysqlDs",
+     "public": true,
+     "$promise": {},
+     "$resolved": true
+   }
 }

@@ -1,0 +1,21 @@
+{
+  "name": "loopback-sandbox",
+  "version": "0.0.0",
+  "authors": [
+    "Kuldip Pipaliya <kuldipem@gmail.com>"
+  ],
+  "description": "Just a simple test app",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-resource": "^1.6.4"
+  }
+}

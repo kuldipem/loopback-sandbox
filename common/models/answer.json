@@ -1,0 +1,53 @@
+{
+  "name": "answer",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "answer": {
+      "type": "string"
+    },
+    "probability": {
+      "type": "string"
+    },
+    "mitigation": {
+      "type": "string"
+    },
+    "likelihoodAnswer": {
+      "type": "string"
+    },
+    "impactAnswer": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "significance": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "questionId": {
+      "type": "number",
+      "required": true
+    },
+    "actionId": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
